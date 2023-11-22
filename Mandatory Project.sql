@@ -2,8 +2,6 @@ USE mavenmovies;
 
 SHOW tables;
 
--- Mandatory Project Questions
-
 -- 1. Write a SQL query to count the number of characters except for the spaces for each actor. Return the first 10 actors' name lengths along with their names.
 
 SELECT first_name AS names, TRIM(LENGTH(first_name)) AS lengths FROM actor
